@@ -6,11 +6,14 @@ namespace Challenge4_Student_Manager
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter piars of student names and grades. Enter \"0\" for the student name to exit");
+            //Console.WriteLine("Enter piars of student names and grades. Enter \"0\" for the student name to exit");
             Console.WriteLine("Enter the first student name");
             var name = Console.ReadLine();
             Console.WriteLine("Enter the first student grade");
-            int.TryParse(Console.ReadLine(), out var grade);
+            var result = int.TryParse(Console.ReadLine(), out var grade);
+
+            if (!result)
+                Console.WriteLine("Error: please enter a number");
 
             Console.WriteLine("The name is {0} and the grade is {1}", name, grade);
 
@@ -23,48 +26,58 @@ namespace Challenge4_Student_Manager
             // so it's whatever
             while (adding)
             {
-                Console.WriteLine("Enter the student name:");
-                name = Console.ReadLine();
-                Console.WriteLine("Enter the student grade:");
-                grade = int.Parse(Console.ReadLine());
-
-                student_count++;
-                var user_response_tup = (name, grade);
-                var new_student_name_grade = new (string, int)[student_count];
-
-                // copy old info into new array
-                for (var i = 0; i < student_count -1; i++)
-               {
-                    new_student_name_grade[i] = old_student_name_grade[i];
-               }
-
-                // add last response to the new array
-                new_student_name_grade[student_count - 1] = user_response_tup;
-
-                if (name == "Michael")
+                try
                 {
-                    Console.WriteLine("It's you!");
+                    Console.WriteLine("Enter the student name:");
+                    name = Console.ReadLine();
+                    Console.WriteLine("Enter the student grade:");
+                    grade = int.Parse(Console.ReadLine());
+
+                    student_count++;
+                    var user_response_tup = (name, grade);
+                    var new_student_name_grade = new (string, int)[student_count];
+
+                    // copy old info into new array
+                    for (var i = 0; i < student_count - 1; i++)
+                    {
+                        new_student_name_grade[i] = old_student_name_grade[i];
+                    }
+
+                    // add last response to the new array
+                    new_student_name_grade[student_count - 1] = user_response_tup;
+
+                    if (name == "Michael")
+                    {
+                        Console.WriteLine("It's you!");
+                    }
+
+
+                    Console.WriteLine("Do you want to continue addding students? (y/n)");
+                    var response = Console.ReadLine();
+                    while (response != "y" && response != "n")
+                    {
+                        Console.WriteLine("Unrecognized response, please enter \"y\" or \"n\"");
+                        response = Console.ReadLine();
+                    }
+
+                    // practice with switch statements
+                    switch (response)
+                    {
+                        case "y":
+                            break;
+                        case "n":
+                            adding = false;
+                            break;
+                    }
+                    old_student_name_grade = new_student_name_grade;
+                }
+                catch (FormatException)
+                {
+
+                    Console.WriteLine("Input was not a number, Please try again.");
                 }
 
-
-                Console.WriteLine("Do you want to continue addding students? (y/n)");
-                var response = Console.ReadLine();
-                while (response != "y" && response != "n")
-                {
-                    Console.WriteLine("Unrecognized response, please enter \"y\" or \"n\"");
-                    response = Console.ReadLine();
-                }
-
-                // practice with switch statements
-                switch (response)
-                {
-                    case "y":
-                        break;
-                    case "n":
-                        adding = false;
-                        break;
-                }
-                old_student_name_grade = new_student_name_grade;
+                
 
             }
 
