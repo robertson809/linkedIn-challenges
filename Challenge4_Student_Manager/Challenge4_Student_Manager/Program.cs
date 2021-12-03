@@ -10,26 +10,24 @@ namespace Challenge4_Student_Manager
             Console.WriteLine("Enter the first student name");
             var name = Console.ReadLine();
             Console.WriteLine("Enter the first student grade");
-            var grade = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out var grade);
 
             Console.WriteLine("The name is {0} and the grade is {1}", name, grade);
 
-            if (name == "Michael")
-                {
-                Console.WriteLine("It's you!");
-            }
 
-            var student_count = 0;
-            var old_student_name_grade = new (string, int)[] { };
+            var student_count = 1;
+            var old_student_name_grade = new (string, int)[] { (name,grade) };
 
             var adding = true;
-            // this whole thing isn't very functional programming, but I also am not allow to use lists at this point, so it's whatever
+            // this whole thing isn't very functional programming, but I also am not allow to use lists at this point,
+            // so it's whatever
             while (adding)
             {
                 Console.WriteLine("Enter the student name:");
                 name = Console.ReadLine();
                 Console.WriteLine("Enter the student grade:");
                 grade = int.Parse(Console.ReadLine());
+
                 student_count++;
                 var user_response_tup = (name, grade);
                 var new_student_name_grade = new (string, int)[student_count];
@@ -50,10 +48,22 @@ namespace Challenge4_Student_Manager
 
 
                 Console.WriteLine("Do you want to continue addding students? (y/n)");
-                adding = Console.ReadLine() == "y";
+                var response = Console.ReadLine();
+                while (response != "y" && response != "n")
+                {
+                    Console.WriteLine("Unrecognized response, please enter \"y\" or \"n\"");
+                    response = Console.ReadLine();
+                }
 
-               
-
+                // practice with switch statements
+                switch (response)
+                {
+                    case "y":
+                        break;
+                    case "n":
+                        adding = false;
+                        break;
+                }
                 old_student_name_grade = new_student_name_grade;
 
             }
