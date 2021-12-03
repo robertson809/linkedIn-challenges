@@ -55,6 +55,7 @@ namespace Challenge5_SurveyOOP
             protected string name;
             protected int age;
             protected string birth_month;
+           
 
             // virtual allows the method to be overridden
             public virtual void Display()
