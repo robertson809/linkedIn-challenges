@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Challenge1_MCQ/1.0.0": {
+        "runtime": {
+          "Challenge1_MCQ.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Challenge1_MCQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

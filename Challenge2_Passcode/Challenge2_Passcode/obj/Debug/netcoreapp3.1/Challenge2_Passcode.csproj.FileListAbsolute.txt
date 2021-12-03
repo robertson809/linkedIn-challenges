@@ -1,0 +1,13 @@
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\bin\Debug\netcoreapp3.1\Challenge2_Passcode.exe
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\bin\Debug\netcoreapp3.1\Challenge2_Passcode.deps.json
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\bin\Debug\netcoreapp3.1\Challenge2_Passcode.runtimeconfig.json
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\bin\Debug\netcoreapp3.1\Challenge2_Passcode.runtimeconfig.dev.json
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\bin\Debug\netcoreapp3.1\Challenge2_Passcode.dll
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\bin\Debug\netcoreapp3.1\Challenge2_Passcode.pdb
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\obj\Debug\netcoreapp3.1\Challenge2_Passcode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\obj\Debug\netcoreapp3.1\Challenge2_Passcode.AssemblyInfoInputs.cache
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\obj\Debug\netcoreapp3.1\Challenge2_Passcode.AssemblyInfo.cs
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\obj\Debug\netcoreapp3.1\Challenge2_Passcode.csproj.CoreCompileInputs.cache
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\obj\Debug\netcoreapp3.1\Challenge2_Passcode.dll
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\obj\Debug\netcoreapp3.1\Challenge2_Passcode.pdb
+C:\Users\Michael\source\repos\Challenge2_Passcode\Challenge2_Passcode\obj\Debug\netcoreapp3.1\Challenge2_Passcode.genruntimeconfig.cache

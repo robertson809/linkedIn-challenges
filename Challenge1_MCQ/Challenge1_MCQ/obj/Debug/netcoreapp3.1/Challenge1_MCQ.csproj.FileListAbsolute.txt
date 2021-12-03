@@ -1,0 +1,13 @@
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\obj\Debug\netcoreapp3.1\Challenge1_MCQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\obj\Debug\netcoreapp3.1\Challenge1_MCQ.AssemblyInfoInputs.cache
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\obj\Debug\netcoreapp3.1\Challenge1_MCQ.AssemblyInfo.cs
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\obj\Debug\netcoreapp3.1\Challenge1_MCQ.csproj.CoreCompileInputs.cache
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\bin\Debug\netcoreapp3.1\Challenge1_MCQ.exe
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\bin\Debug\netcoreapp3.1\Challenge1_MCQ.deps.json
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\bin\Debug\netcoreapp3.1\Challenge1_MCQ.runtimeconfig.json
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\bin\Debug\netcoreapp3.1\Challenge1_MCQ.runtimeconfig.dev.json
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\bin\Debug\netcoreapp3.1\Challenge1_MCQ.dll
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\bin\Debug\netcoreapp3.1\Challenge1_MCQ.pdb
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\obj\Debug\netcoreapp3.1\Challenge1_MCQ.dll
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\obj\Debug\netcoreapp3.1\Challenge1_MCQ.pdb
+C:\Users\Michael\source\repos\Challenge1_MCQ\Challenge1_MCQ\obj\Debug\netcoreapp3.1\Challenge1_MCQ.genruntimeconfig.cache
